@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جستجو</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+    <div class="search-section">
+
+        <h1 class="heading"> جستجوی کالا</h1>
+        <p class="des"> بر اساس کد کالا یا نام کالا</p>
+	    <div class="form-container">
+        
+	    	<form name="form1" method="post" action="search.php">
+	    		<table class="table">
+	    			<tr>
+	    				<td><input type="radio" name="search"  value="1" checked="true">کد کالا</td>
+	    			</tr>
+	    			<tr>
+	    				<td><input type="radio" name="search" id="ntxt" value="2">نام کالا</td>
+	    			</tr>
+	    			<tr>
+	    				<td><input type="radio" name="search" id="mtxt" value="3" >مدل کالا</td>
+	    			</tr>
+	    			<tr>
+	    				<td><input type="radio" name="search" id="ptxt" value="4">قیمت کالا</td>
+	    			</tr>
+	    			<tr>
+	    				<td>کالای جستجویی</td>
+                        <td><input type="text" name="product-txt" size="25"> </td>
+	    			</tr>
+
+	    			<tr>
+                        <td><input type="reset" class="btn-form-delete" name="resetbn" value="حذف"></td>	
+	    				<td><input type="submit" class="btn-form-send" name="submitbn" value="جستجو"></td>
+	    			</tr>
+	    		</table>
+	    	</form>
+	    </div>
+    
+	    <div class="back">
+            <a class="btn" href="Home.html"> برگشت به صفحه ی اصلی</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    direction: rtl;
+}
+.green-alert{
+    color: green;
+    background-color: rgba(144, 238, 144, 0.382);
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid rgb(172, 255, 47);
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.red-alert{
+    color: red;
+    background-color: rgba(255, 191, 0, 0.555);
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.btn{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: dodgerblue;
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 2rem;
+}
+.btn:hover{
+   background-color: blue;
+}
+.btn-form-send{
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(5, 214, 117);
+    width: 150px;
+    padding: .5rem;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-form-delete{
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(240, 27, 27);
+    width: 100px;
+    padding: .5rem;
+    text-align: center;
+    border: 1px solid rgb(245, 226, 14);
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ------- header  ------ */
+.navbar{
+    padding: 1rem;
+}
+.container{
+    background-color: antiquewhite;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.poject-txt{
+    padding: 1rem;
+}
+.poject-txt h2{
+    color: blueviolet;
+}
+.container a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.container a:hover{
+    background-color: cadetblue ;
+    color: aquamarine;
+}
+
+/* ---- Home  main section  ---- */
+.main-section{
+    background-color: lightcyan;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 80%;
+    line-height: 2;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.main-section a{
+    text-decoration: none;
+    color: #555;
+    font-size: 1.5rem;
+}
+.main-section a:hover{
+    color: deepskyblue;
+}
+.main-section a:visited{
+    color: purple;
+}
+/* ----   footer  ----- */
+footer{
+    background-color: #ccc;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* ----------------------------------------------- */
+.heading{
+    width: 50%;
+    margin: 2rem;
+    color: dodgerblue;
+}
+.form-container{
+    width: 80%;
+    height: 400px;
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container form{
+    background-color: #ccc;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.table td,th{
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.form-container form table,td{
+    font-size: 1.2rem;
+}
+.back{
+    margin-top: 2.5rem;
+}
+.form-container form table td input{
+    width: 300px;
+    height: 30px;
+
+}
+/* ------------------------------ */
+
+/* --------------------------------- */
+.show-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.show-tabel-box{
+    margin-bottom: 3rem;
+    width: 80%;
+    background-color: #ccc;
+    padding: 2rem;
+    border-radius: 15px;
+}
+/* ------------------------ */
+.form-container h3{
+    color: cornflowerblue;
+}
+/* ----------------------- */
+.show-search-result, .insert-section, .update-section, .delet-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+/* .btn-back-search{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: dodgerblue;
+    width: 200px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 2rem;
+} */
+.des{
+    width: 50%;
+    margin: 2rem; 
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>ورود اطلاعات </title>
+</head>
+<body>
+
+    <h1 class="heading"> ورود  اطلاعات  به  جدول  محصولات</h1>
+	<div class="form-container">
+	
+	    <form name="form-insert-table" method="post" action="insert.php">
+	    	<table class="table">
+	    		<tr>
+	    			<td>کد کالا</td>
+                    <td><input type="text" name="pCode" id="pCode" size="15"></td>
+                </tr>
+
+	    		<tr>
+	    			<td>نام کالا</td>
+                    <td><input type="text" name="pName" id="pName" size="25"></td>
+                </tr>
+
+	    		<tr>
+	    			<td>مدل کالا</td>
+                    <td><input type="text" name="pModel" id="pModel" size="25"></td>
+                </tr>
+
+	    		<tr>
+	    			<td>قیمت کالا</td>
+                    <td><input type="text" name="pPrice" id="pPrice" size="15"></td>
+                </tr>	
+
+	    		<tr>
+	    			<td><input type="reset" name="resetbn" class="btn-form-delete" value="حذف"></td>
+                    <td><input type="submit" name="submitbn" class="btn-form-send" value="ارسال"></td>	
+	    		</tr>
+	        </table>
+        </form>
+	</div>
+	<div class="back">
+		<a class="btn" href="Home.html"> برگشت به صفحه ی اصلی</a>
+	</div>
+    
+</body>
+</html>

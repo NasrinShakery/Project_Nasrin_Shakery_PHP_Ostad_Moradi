@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حذف اطلاعات</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <h1 class="heading">حذف اطلاعات</h1>
+    <h3 class="heading">کد کالایی را که می خواهید حذف شود وارد نمایید.</h3>
+	<div class="form-container">
+		<form name="form1" method="post" action="delete.php">
+			<table>
+				<tr>
+					<td>کد کالا</td>
+					<td><input type="text" name="deletCode" id="deletCode" size="15"></td>
+				</tr>
+									
+				<tr>
+					<!-- <td><input type="reset" name="resetbn" value="حذف"></td> -->
+					<td colspan="2"><input type="submit" class="btn-form-delete" name="submitbn" value="حذف"></td>	
+				</tr>
+
+			</table>
+		</form>
+	</div>
+
+	<div class="adiv">
+		<a href="Home.html" class="btn"> برگشت به صفحه ی اصلی</a>
+	</div>
+    
+</body>
+</html>
